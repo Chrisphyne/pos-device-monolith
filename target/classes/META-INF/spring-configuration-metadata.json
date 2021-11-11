@@ -1,0 +1,11 @@
+{
+  "groups": [
+    {
+      "name": "application",
+      "type": "com.posdevice.restapi.config.ApplicationProperties",
+      "sourceType": "com.posdevice.restapi.config.ApplicationProperties"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}

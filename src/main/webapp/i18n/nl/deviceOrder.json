@@ -1,0 +1,27 @@
+{
+  "posdevicerestapiApp": {
+    "deviceOrder": {
+      "home": {
+        "title": "Device Orders",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Maak een nieuwe Device Order",
+        "createOrEditLabel": "Maak of wijzig een Device Order",
+        "notFound": "No Device Orders found"
+      },
+      "created": "A new Device Order is created with identifier {{ param }}",
+      "updated": "A Device Order is updated with identifier {{ param }}",
+      "deleted": "A Device Order is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Bent u zeker dat u Device Order {{ id }} wilt verwijderen?"
+      },
+      "detail": {
+        "title": "Device Order"
+      },
+      "id": "ID",
+      "quantity": "Quantity",
+      "totalPrice": "Total Price",
+      "device": "Device",
+      "cart": "Cart"
+    }
+  }
+}

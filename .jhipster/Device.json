@@ -1,0 +1,52 @@
+{
+  "name": "Device",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "price",
+      "fieldType": "BigDecimal",
+      "fieldValidateRules": ["required", "min"],
+      "fieldValidateRulesMin": "0"
+    },
+    {
+      "fieldName": "deviceSize",
+      "fieldType": "Size",
+      "fieldValues": "S,M,L,XL,XXL",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "image",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "image"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "deviceModel",
+      "otherEntityRelationshipName": "device",
+      "relationshipValidateRules": "required",
+      "relationshipName": "deviceModel",
+      "otherEntityField": "name"
+    }
+  ],
+  "javadoc": "Device sold by the Online store",
+  "entityTableName": "device",
+  "dto": "no",
+  "pagination": "pagination",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": ["posdevicerestapi"],
+  "changelogDate": "20211110112442"
+}

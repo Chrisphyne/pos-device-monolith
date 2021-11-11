@@ -1,0 +1,26 @@
+{
+  "posdevicerestapiApp": {
+    "deviceModel": {
+      "home": {
+        "title": "Device Models",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Maak een nieuwe Device Model",
+        "createOrEditLabel": "Maak of wijzig een Device Model",
+        "notFound": "No Device Models found"
+      },
+      "created": "A new Device Model is created with identifier {{ param }}",
+      "updated": "A Device Model is updated with identifier {{ param }}",
+      "deleted": "A Device Model is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Bent u zeker dat u Device Model {{ id }} wilt verwijderen?"
+      },
+      "detail": {
+        "title": "Device Model"
+      },
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "device": "Device"
+    }
+  }
+}

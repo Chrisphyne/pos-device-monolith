@@ -1,0 +1,29 @@
+{
+  "posdevicerestapiApp": {
+    "device": {
+      "home": {
+        "title": "Devices",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Maak een nieuwe Device",
+        "createOrEditLabel": "Maak of wijzig een Device",
+        "notFound": "No Devices found"
+      },
+      "created": "A new Device is created with identifier {{ param }}",
+      "updated": "A Device is updated with identifier {{ param }}",
+      "deleted": "A Device is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Bent u zeker dat u Device {{ id }} wilt verwijderen?"
+      },
+      "detail": {
+        "title": "Device"
+      },
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "price": "Price",
+      "deviceSize": "Device Size",
+      "image": "Image",
+      "deviceModel": "Device Model"
+    }
+  }
+}
